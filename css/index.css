@@ -1,0 +1,6 @@
+nav {
+  text-align: right; }
+  nav a {
+    color: grey; }
+    nav a:hover {
+      color: black; }
