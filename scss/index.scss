@@ -1,8 +1,11 @@
 nav {
   text-align: right;
+  margin: 2rem 3rem 0 0;
 
   a {
-    color: grey;
+    font-size: 1.5rem;
+    color: rgb(181, 181, 181);
+    text-decoration: none;
 
     &:hover {
       color: black;
