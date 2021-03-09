@@ -1,9 +1,13 @@
-const navigationLinks = document.getElementsByClassName("navlinks");
+const navigationLinks = document.getElementsByTagName("nav");
 
 for (item of navigationLinks) {
-  item.addEventListener("mouseover", () => {
-    console.log(
-      "This is placeholder for a future mouse over action to be implemented"
-    );
+  const separator = document.createElement("hr");
+  separator.id = "navbarSeparator";
+  item.addEventListener("mouseenter", () => {
+    item.appendChild(separator);
+  });
+
+  item.addEventListener("mouseleave", () => {
+    separator.remove();
   });
 }

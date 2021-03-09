@@ -1,14 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   text-align: right;
-  margin: 2rem 3rem 0 0;
+
+  // &:hover {
+  // } (ignore this!)
 
   a {
+    padding-right: 3rem;
+    //padding-top: 3rem; this line doesn't work
     font-size: 1.5rem;
     color: rgb(181, 181, 181);
     text-decoration: none;
 
     &:hover {
-      color: black;
+      color: pink;
+      text-decoration: underline;
     }
+  }
+}
+
+#navbarSeparator {
+  background-color: lightgray;
+  height: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(249, 204, 210);
+  padding-bottom: 3em;
+  font-size: 1.25em;
+
+  p {
+    padding: 1em;
+  }
+
+  a {
+    padding: 1em;
   }
 }
