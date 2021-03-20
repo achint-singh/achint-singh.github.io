@@ -1,3 +1,6 @@
+html {
+  font-family: "Poppins", sans-serif; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -5,7 +8,8 @@ body {
 nav {
   text-align: right; }
   nav a {
-    padding-right: 3rem;
+    display: inline-block;
+    padding: 2rem;
     font-size: 1.5rem;
     color: #b5b5b5;
     text-decoration: none; }
@@ -13,17 +17,23 @@ nav {
       color: pink;
       text-decoration: underline; }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 #navbarSeparator {
+  border: none;
   background-color: lightgray;
-  height: 5px; }
+  height: 3px; }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #f9ccd2;
-  padding-bottom: 3em;
-  font-size: 1.25em; }
+  font-size: 1em;
+  text-align: center; }
   footer p {
     padding: 1em; }
   footer a {

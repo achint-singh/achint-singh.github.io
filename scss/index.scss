@@ -1,3 +1,7 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,8 +14,9 @@ nav {
   // } (ignore this!)
 
   a {
-    padding-right: 3rem;
-    //padding-top: 3rem; this line doesn't work
+    //padding-inline-end: 3rem;
+    display: inline-block;
+    padding: 2rem;
     font-size: 1.5rem;
     color: rgb(181, 181, 181);
     text-decoration: none;
@@ -23,9 +28,16 @@ nav {
   }
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #navbarSeparator {
+  border: none;
   background-color: lightgray;
-  height: 5px;
+  height: 3px;
 }
 
 footer {
@@ -33,8 +45,8 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: rgb(249, 204, 210);
-  padding-bottom: 3em;
-  font-size: 1.25em;
+  font-size: 1em;
+  text-align: center;
 
   p {
     padding: 1em;
