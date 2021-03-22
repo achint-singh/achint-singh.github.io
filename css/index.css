@@ -1,5 +1,6 @@
 html {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  background-color: #fff6f4; }
 
 body {
   margin: 0;
@@ -7,6 +8,8 @@ body {
 
 nav {
   text-align: right; }
+  nav:hover {
+    background-color: white; }
   nav a {
     display: inline-block;
     padding: 2rem;
@@ -14,13 +17,19 @@ nav {
     color: #b5b5b5;
     text-decoration: none; }
     nav a:hover {
-      color: pink;
+      color: #b2756c;
       text-decoration: underline; }
 
 main {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.25em; }
+  main a {
+    text-decoration: none;
+    color: #b2756c; }
+    main a:hover {
+      text-decoration: underline; }
 
 #navbarSeparator {
   border: none;
@@ -31,10 +40,25 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f9ccd2;
-  font-size: 1em;
-  text-align: center; }
-  footer p {
-    padding: 1em; }
-  footer a {
-    padding: 1em; }
+  background-color: white;
+  font-size: 1em; }
+  footer .left-sidebar {
+    padding-inline-start: 2em;
+    padding-block-start: 1em;
+    float: left; }
+    footer .left-sidebar p,
+    footer .left-sidebar h2 {
+      margin: 0; }
+  footer .right-sidebar {
+    padding-inline-end: 7em;
+    padding-block-end: 1em;
+    padding-block-start: 1em;
+    float: right;
+    display: flex;
+    flex-direction: column; }
+    footer .right-sidebar a {
+      text-decoration: none;
+      color: black; }
+      footer .right-sidebar a:hover {
+        color: #b2756c;
+        text-decoration: underline; }
