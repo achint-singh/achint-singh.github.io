@@ -1,0 +1,23 @@
+{
+  "name": "achint-singh.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achint-singh/achint-singh.github.io.git"
+  },
+  "author": "Achint Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achint-singh/achint-singh.github.io/issues"
+  },
+  "homepage": "https://github.com/achint-singh/achint-singh.github.io#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
