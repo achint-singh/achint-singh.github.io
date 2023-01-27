@@ -1,8 +1,96 @@
-html {
-  font-family: "Poppins", sans-serif;
-  background-color: #fff6f4; }
 
-body {
+
+h1 {
+  font-weight:normal;
+  font-family: 'Georgia';
+  color: #494949;
+  font-size: 64px;
+  margin: 0;
+}
+
+main p {
+  font-family: 'Space Mono', monospace;
+  color: #494949;
+  font-size: 32px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+nav {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  color: #494949;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 2rem; /* QUESTION: WHAT IS THE GAP BETWEEN THE NAV ITEMS? */
+}
+
+.header { 
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text {
+  margin-left: 32px;
+}
+
+main {
+  margin-top: 4em;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 80vh;
+}
+/* footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Space Mono', monospace;
+  color: #494949;
+} */
+
+/* .contact {
+  display: flex;
+  flex-direction: column;
+} */
+
+footer {
+  font-family: 'Space Mono', monospace;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+footer p {
+  font-family: 'Georgia';
+  margin: 1rem 0 0 0;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer li {
+  margin-top: 1rem;
+}
+
+/* body {
+  margin-left: 100px;
+  margin-right: 100px;
+} */
+
+/* body {
   margin: 0;
   padding: 0; }
 
@@ -34,16 +122,4 @@ footer {
     footer .left-sidebar p,
     footer .left-sidebar h2 {
       margin: 0; }
-  footer .right-sidebar {
-    padding-inline-end: 7em;
-    padding-block-end: 1em;
-    padding-block-start: 1em;
-    float: right;
-    display: flex;
-    flex-direction: column; }
-    footer .right-sidebar a {
-      text-decoration: none;
-      color: black; }
-      footer .right-sidebar a:hover {
-        color: #b2756c;
-        text-decoration: underline; }
+      */
