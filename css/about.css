@@ -7,6 +7,7 @@ h1 {
 p {
   font-family: 'Space Mono', monospace;
   color: #494949;
+  font-size: 1.2vw;
 }
 
 nav {
@@ -15,16 +16,16 @@ nav {
   color: #494949;
   display: flex;
   justify-content: flex-end;
-  column-gap: 2rem; /* QUESTION: WHAT IS THE GAP BETWEEN THE NAV ITEMS? */
+  column-gap: 2rem; 
 }
 
 .header { 
-  margin-top: 48px;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer {
@@ -43,6 +44,7 @@ h2 {
   font-family: 'Georgia';
   color: #494949;
   font-weight: 400;
+  font-size: 2vw;
 }
 
 .description {
@@ -58,10 +60,10 @@ hr {
   margin-right: 100px;
 }
 
-footer {
+.footer {
   font-family: 'Space Mono', monospace;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -78,4 +80,29 @@ footer ul {
 
 footer li {
   margin-top: 1rem;
+}
+
+.credit {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  color:  rgba(73, 73, 73, 0.32);
+}
+
+.heart {
+  align-self: end;
+}
+
+hr {
+  margin-bottom: 48px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a {
+  color: #494949;
+}
+
+.san-diego-picture {
+  margin-bottom: 120px;
 }
