@@ -1,19 +1,13 @@
-
-
 h1 {
-  font-weight:normal;
-  font-family: 'Georgia';
-  color: #494949;
-  font-size: 4vw;
-  margin: 0;
-}
-
-main p {
+    font-weight:normal;
+    font-family: 'Georgia';
+    color: #494949;
+  }
+  
+p {
   font-family: 'Space Mono', monospace;
   color: #494949;
-  font-size: 2vw;
-  /* margin-left: 100px;
-  margin-right: 100px; */
+  font-size: 1.2vw;
 }
 
 nav {
@@ -34,29 +28,36 @@ nav {
   margin-right: 10%;
 }
 
-.headline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 750px;
-}
-
-.intro-text {
-  margin-left: 2rem;
+footer {
+  font-family: 'Space Mono', monospace;
+  color: #494949;
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-  /* margin-left: 100px;
-  margin-right: 100px; */
-  height: 80vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
 }
 
-.byline {
-  max-width: 750px;
+h2 {
+  font-family: 'Georgia';
+  color: #494949;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.description {
+  margin-left: 100px;
+}
+
+.squiggle {
+  margin: 60px 0px;
+}
+
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .footer {
@@ -100,4 +101,8 @@ hr {
 
 a {
   color: #494949;
+}
+
+.san-diego-picture {
+  margin-bottom: 120px;
 }
