@@ -30,7 +30,6 @@ nav {
 
 footer {
   font-family: 'Space Mono', monospace;
-  color: #494949;
 }
 
 main {
@@ -89,6 +88,10 @@ footer li {
   color:  rgba(73, 73, 73, 0.32);
 }
 
+.credit p {
+  color:  rgba(73, 73, 73, 0.32);
+}
+
 .heart {
   align-self: end;
 }
@@ -105,4 +108,8 @@ a {
 
 .san-diego-picture {
   margin-bottom: 120px;
+}
+
+.portfolio-link {
+  color:  rgba(73, 73, 73, 0.32);
 }
