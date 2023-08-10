@@ -1,6 +1,25 @@
+/* Styles for the main section */
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  height: 80vh;
+}
 
-h1 {
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.main-section__introduction {
+  margin-left: 2rem;
+}
+
+main h1 {
   font-weight:normal;
   font-family: 'Georgia';
   color: #494949;
@@ -12,92 +31,5 @@ main p {
   font-family: 'Space Mono', monospace;
   color: #494949;
   font-size: 2vw;
-  /* margin-left: 100px;
-  margin-right: 100px; */
-}
-
-nav {
-  font-family: 'Space Mono', monospace;
-  font-weight: 700;
-  color: #494949;
-  display: flex;
-  justify-content: flex-end;
-  column-gap: 2rem; 
-}
-
-.header { 
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.headline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   max-width: 750px;
-}
-
-.intro-text {
-  margin-left: 2rem;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-  /* margin-left: 100px;
-  margin-right: 100px; */
-  height: 80vh;
-}
-
-.byline {
-  max-width: 750px;
-}
-
-.footer {
-  font-family: 'Space Mono', monospace;
-  margin-left: 10%;
-  margin-right: 10%;
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-}
-
-footer p {
-  font-family: 'Georgia';
-  margin: 1rem 0 0 0;
-}
-
-footer ul {
-  margin: 0;
-}
-
-footer li {
-  margin-top: 1rem;
-}
-
-.credit {
-  display: flex;
-  margin-bottom: 2rem;
-  justify-content: center;
-  color:  rgba(73, 73, 73, 0.32);
-}
-
-.heart {
-  align-self: end;
-}
-
-hr {
-  margin-bottom: 48px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-a {
-  color: #494949;
 }
