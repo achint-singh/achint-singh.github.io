@@ -59,11 +59,11 @@ footer p {
     display: flex;
     margin-bottom: 2rem;
     justify-content: center;
-    color:  rgba(73, 73, 73, 0.32);
+    color:  rgba(56, 55, 55, 0.692);
 }
 
 .footer-credit__portfolio-link {
-    color:  rgba(73, 73, 73, 0.32);
+    color:  rgba(56, 55, 55, 0.692);
 }
 
 .footer-credit__icon {
